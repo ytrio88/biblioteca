@@ -1,0 +1,8 @@
+# REMOVE PHP FROM URL
+# REMOVE PHP EXTENSION
+RewriteEngine on 
+RewriteCond %{REQUEST_FILENAME} !-d 
+RewriteCond %{REQUEST_FILENAME} !-f 
+
+RewriteBase /biblioteca/index.php
+RewriteRule ^[a-zA-Z0-9/]+$ index.php

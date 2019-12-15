@@ -1,0 +1,29 @@
+#modal1 .lista, #modal3 .lista {height: 300px; }
+#modal2 .lista {height: 250px; }
+#modal1 {top: calc(50vh - 448px/2)}
+#modal2 {top: calc(50vh - 457px/2)}
+#modal3 {top: calc(50vh - 502px/2)}
+#modal2 input {padding: 5px;}
+
+.size2b {display: grid; grid-template-columns: auto 170px; }
+.direita2 {margin-left: 10px;}
+.radios {display: grid; grid-template-columns: 20px auto;}
+.radiosCopy {display: grid; grid-template-columns: 20px auto auto;}
+.lista {overflow: hidden; overflow-y: auto;}
+
+.listGroup {border: 2px solid var(--azulclaro) }
+#listaLivros {height: 110px; padding: 5px;}
+#listaSel {height: 132px;}
+
+
+
+.stipo {column-gap: 10px; margin-right: 10px;}
+
+img {width: 24px; position: relative; }
+button {background: none}
+.livrosGrid {display: grid; grid-template-columns: auto 26px; padding: 5px; grid-auto-rows: auto;}
+.livrosGrid label {margin: 0;}
+.g3 {display: grid; grid-template-columns: 45px auto 30px; padding: 5px;}
+.g3 * {padding: 5px;}
+.infos {padding: 0;}
+.infos * {padding: 0; margin: 0; border: 0}

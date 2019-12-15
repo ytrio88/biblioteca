@@ -1,0 +1,5 @@
+.lista {grid-template-columns: auto auto auto 120px;}
+.modal {top: calc(50vh - 432px/2)}
+.modal input {padding: 5px;}
+.modal #status {width: calc(100% - 10px)}
+.conteudo {padding: 0;}

@@ -1,0 +1,8 @@
+.lista label {padding: 0 10px; }
+.lista {grid-auto-rows: min-content;}
+.conteudo {padding: 0;}
+
+.sizes input {padding: 5px;}
+
+#modal1 {top: calc(50vh - 430px/2)}
+.l5a {grid-template-columns: auto auto auto auto 200px;}

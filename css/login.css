@@ -1,0 +1,6 @@
+.box {width: 400px; margin-left: calc(50vw - 200px); margin-top: calc(50vh - 310px/2);}
+.modal input {padding: 5px;}
+#modal1 {top: calc(50vh - 160px);}
+.myhidden {display: none;}
+.myhidden2 {display: none;}
+#modal2 {top: calc(50vh - 234px/2);}
